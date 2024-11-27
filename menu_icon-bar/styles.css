@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+:root {
+  --bg-inactive: #555;
+  --bg-active: #04aa6d;
+  --bg-hover: black;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 2rem;
+}
+
+/* ----------- Settings for A Vertical Bar ----------- */
+
+#icon-bar-vertical {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+#icon-bar-vertical a {
+  width: 5.625rem;
+  text-align: center;
+  font-size: 2.25rem;
+  padding: 16px;
+  color: white;
+  transition: 0.3s;
+  background-color: var(--bg-inactive);
+}
+
+#icon-bar-vertical a.active {
+  background-color: var(--bg-active);
+}
+
+#icon-bar-vertical a:hover {
+  background-color: var(--bg-hover);
+}
+
+/* ----------- Settings for A Horizontal Bar ----------- */
+
+#icon-bar-horizontal {
+  margin-top: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#icon-bar-horizontal a {
+  text-align: center;
+  font-size: 2.25rem;
+  padding: 16px;
+  color: white;
+  transition: 0.3s;
+  background-color: var(--bg-inactive);
+}
+
+#icon-bar-horizontal a.active {
+  background-color: var(--bg-active);
+}
+
+#icon-bar-horizontal a:hover {
+  background-color: var(--bg-hover);
+}
