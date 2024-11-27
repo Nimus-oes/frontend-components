@@ -1,6 +1,6 @@
 # Icon Bar
 
-A clickable icon bar with color changes depending on the state
+A clickable icon bar with color changes per the state
 
 <img src="menu_icon-bar.png">
 
