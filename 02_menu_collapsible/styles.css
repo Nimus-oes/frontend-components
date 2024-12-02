@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 :root {
@@ -12,3 +12,65 @@
   --bg-hover: #ccc;
   --bg-content: white;
 }
+
+#content-group {
+  width: 50%;
+  margin: 10rem auto;
+}
+
+.section-title {
+  background-color: var(--bg-inactive);
+  align-content: center;
+  height: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.section-title:hover {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+.section-title::after {
+  content: "+";
+}
+
+.active::after {
+  content: "-";
+}
+
+.section-content {
+  background-color: var(--bg-content);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.text {
+  padding: 1rem;
+}
+
+/* 
+display: none or max-height: 0 with overflow: hidden?
+It depends on the effect to implement. 
+If the content should be expanded like an accordion from top to bottom or bottom to top, 
+max-height: 0 should be used with a decreased transition speed. 
+Display only decides whether to show it or not instantly. 
+*/
+
+/* 
+The reason wrapper is added to the text content of each section:
+
+When applying padding to the text content directly without a wrapper 
+while using max-height: 0 for hiding, the padding adds extra space inside the element, 
+which doesn't shrink with max-height. 
+This causes the top side to still appear visible even when the content is closed.
+If you set max-height to the div wrapper and padding to the child text element,
+the text value appear with padding values only when it is open.
+*/
