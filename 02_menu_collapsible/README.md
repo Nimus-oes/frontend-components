@@ -2,8 +2,8 @@
 
 A collapsible content component that allows you to hide and show detailed content with a click.
 
-<img src="menu_collapsible_01.png">
-<img src="menu_collapsible_02.png">
+<img src="menu_collapsible_01.png" width=70%>
+<img src="menu_collapsible_02.png" width=70%>
 
 <br>
 
