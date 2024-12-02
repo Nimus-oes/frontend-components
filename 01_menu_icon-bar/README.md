@@ -8,9 +8,17 @@ A clickable icon bar with color changes per the state
 
 ## Functionality
 
-- **Inactive state**: the background color of each icon box stays grey when inactive
-- **Hover state**: the background color of each icon box changes to black when hovered
-- **Active state**: The background color of the icon box changes to green when it is currenlty active (clicked)
+- **Inactive state**:
+
+  - The icon box has a grey background color
+
+- **Hover state**:
+
+  - The icon box background changes to black when hovered
+
+- **Active state**:
+
+  - The icon box background changes to green when active (clicked)
 
 <br>
 
