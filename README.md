@@ -11,3 +11,5 @@
 <img src="02_menu_collapsible/menu_collapsible_02.png" width="50%">
 
 ### 3. Tabs
+
+<img src="03_menu_tabs/menu_tabs.png" width="50%">
