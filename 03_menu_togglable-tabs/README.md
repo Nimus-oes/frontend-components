@@ -25,7 +25,7 @@ Tabs that display different content when clicked.
 
 <br>
 
-## How to Create Tabs
+## How to Create Togglable Tabs
 
 1. Create HTML elements for the tab button and their respective content.
 2. Hide all tab contents with `display: none`
