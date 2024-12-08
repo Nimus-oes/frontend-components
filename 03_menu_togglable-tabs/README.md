@@ -10,7 +10,7 @@ Tabs that display different content when clicked.
 
 - **Inactive state**:
 
-  - Tab buttons hav a light purple background color
+  - Tab buttons have a light purple background color
   - The first tab's content is displayed by default
 
 - **Hover state**:
