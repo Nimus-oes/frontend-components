@@ -10,12 +10,12 @@ Tabs that display different content when hovered.
 
 - **Inactive state**:
 
-  - Tab buttons have a light purple background color
+  - Tab buttons have a light yellow background color
   - The first tab's content is displayed by default
 
 - **Active state (Hover state)**:
 
-  - Tab button background changes to dark purple when hovered
+  - Tab button background changes to green when hovered
   - The corresponding tab's content is displayed
   - When a new tab is hovered, the previously active tab closes and the new tab's content opens
 

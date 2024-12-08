@@ -15,3 +15,5 @@
 <img src="03_menu_togglable-tabs/menu_togglable-tabs.png" width="50%">
 
 ### 4. Hoverable Tabs
+
+<img src="04_menu_hoverable-tabs/menu_hoverable-tabs.png" width="50%">
