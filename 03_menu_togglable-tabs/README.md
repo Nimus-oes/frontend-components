@@ -2,7 +2,7 @@
 
 Tabs that display different content when clicked.
 
-<img src="menu_tabs.png" width=70%>
+<img src="menu_togglable-tabs.png" width=80%>
 
 <br>
 

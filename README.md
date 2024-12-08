@@ -10,6 +10,6 @@
 
 <img src="02_menu_collapsible/menu_collapsible_02.png" width="50%">
 
-### 3. Tabs
+### 3. Togglable Tabs
 
-<img src="03_menu_tabs/menu_tabs.png" width="50%">
+<img src="03_menu_togglable-tabs/menu_togglable-tabs.png" width="50%">
