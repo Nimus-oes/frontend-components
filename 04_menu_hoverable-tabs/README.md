@@ -1,4 +1,4 @@
-# Tabs
+# Hoverable Tabs
 
 Tabs that display different content when hovered.
 
