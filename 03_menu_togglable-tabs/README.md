@@ -1,8 +1,8 @@
-# Tabs
+# Toggleable Tabs
 
 Tabs that display different content when clicked.
 
-<img src="menu_togglable-tabs.png" width=80%>
+<img src="menu_toggleable-tabs.png" width=80%>
 
 <br>
 
@@ -25,7 +25,7 @@ Tabs that display different content when clicked.
 
 <br>
 
-## How to Create Togglable Tabs
+## How to Create Toggleable Tabs
 
 1. Create HTML elements for the tab button and their respective content.
 2. Hide all tab contents with `display: none`
